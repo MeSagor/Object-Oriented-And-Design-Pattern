@@ -1,5 +1,5 @@
 
-<h1 align="center">Object Oriented and Design Pattern Lab</h1>
+<h1 align="center">Assignment-2</h1>
 
 ### Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process.
 
