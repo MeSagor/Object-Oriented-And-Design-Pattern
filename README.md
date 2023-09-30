@@ -4,8 +4,7 @@
 ### Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process.
 
 ## Concept
-<img src="Images/concept.jpg" width="500" height="255" alt="Images/concept.jpg">
-
+![](Images/concept.jpg)
 
 ## Course Details
 - Course Name: Object Oriented and Design Pattern Lab 
