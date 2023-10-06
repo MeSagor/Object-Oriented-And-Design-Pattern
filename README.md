@@ -1,8 +1,15 @@
 
 <h1 align="center">Assignment-1</h1>
 
-#### Write a Java Program to Demonstrate Multiple Inheritance.
+## Assignment Branches
+**Note:** My assignments are structured in branches as follows:
 
+- **Assignment 1:** Branch `Assignment-1`
+- **Assignment 2:** Branch `Assignment-2`
+- **Assignment n:** Branch `Assignment-n`
+
+## Problem Statement:
+ Write a Java Program to Demonstrate Multiple Inheritance.
 
 ## Classes
 ### Music Interface
