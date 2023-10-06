@@ -1,7 +1,15 @@
 
 <h1 align="center">Assignment-2</h1>
 
-### Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process.
+## Assignment Branches
+**Note:** My assignments are structured in branches as follows:
+
+- **Assignment 1:** Branch `Assignment-1`
+- **Assignment 2:** Branch `Assignment-2`
+- **Assignment n:** Branch `Assignment-n`
+
+## Problem Statement:
+Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process.
 
 ## Components
 The Pet Management System consists of the following Java classes:
