@@ -1,12 +1,15 @@
 
 <h1 align="center">Assignment-3</h1>
 
-#### Write a Java program to demonstrate the implementation of a façade design pattern for a Banking Service with Checking, Saving, and Investment modules.
+## Assignment Branches
+**Note:** My assignments are structured in branches as follows:
 
-## Table of Contents
-- [Components](#components)
-- [Usage](#usage)
-- [Class Diagram](#class-diagram)
+- **Assignment 1:** Branch `Assignment-1`
+- **Assignment 2:** Branch `Assignment-2`
+- **Assignment n:** Branch `Assignment-n`
+
+## Problem Statement:
+Write a Java program to demonstrate the implementation of a façade design pattern for a Banking Service with Checking, Saving, and Investment modules.
 
 ## Components
 
