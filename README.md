@@ -1,13 +1,25 @@
 
 <h1 align="center">Assignment-1</h1>
 
-### Write a Java Program to Demonstrate Multiple Inheritance.
+#### Write a Java Program to Demonstrate Multiple Inheritance.
 
 
-## Concept
-![](images/multiple_inheritance.png)
+## Classes
+### Music Interface
 
-## Course Details
-- Course Name: Object Oriented and Design Pattern Lab 
-- Course Code: CSE-4122
-- Teacher: [SUJAN KUMAR ROY](http://rurfid.ru.ac.bd/ru_profile/public/teacher/22706109/profile)
+- `playMusic()`: Defines the method for playing music.
+- `deleteMedia()`: Defines the method for deleting media.
+
+### Video Interface
+
+- `playVideo()`: Defines the method for playing videos.
+- `deleteMedia()`: Defines the method for deleting media.
+
+### Computer Class
+
+- Implements both the `Music` and `Video` interfaces.
+- Provides concrete implementations for all the methods defined in these interfaces.
+- Allows playing music, playing videos, and deleting media.
+
+## Class Diagram
+![Class Diagram](images/multiple_inheritance.png)
