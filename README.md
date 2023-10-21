@@ -1,5 +1,5 @@
 
-<h1 align="center">Object Oriented and Design Pattern Lab</h1>
+<h1 align="center">Assignment-6</h1>
 
 ## Assignment Branches
 **Note:** My assignments are structured in branches as follows:
@@ -7,18 +7,30 @@
 - **Assignment 2:** Branch `Assignment-2`
 - **Assignment n:** Branch `Assignment-n`
 
-## Assignments Link 
+## Problem Statement
+Write a Java program to demonstrate the implementation of a decorator pattern for a web page, which might display complex behavior, such as only allowing access to authorized users, or splitting search results across multiple pages.
 
-| Problem Statement | Branch |
-| :---------------- | ------ |
-| Write a Java Program to Demonstrate Multiple Inheritance. | [Assignment&#8209;1](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-1)|
-| Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process. | [Assignment&#8209;2](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-2) |
-| Write a Java program to demonstrate the implementation of a façade design pattern for a Banking Service with Checking, Saving, and Investment modules. | [Assignment&#8209;3](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-3) |
-| Write a Java program that demonstrates the implementation of a composite design pattern by using an example with a building composed of generic housing structures. | [Assignment&#8209;4](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-4) |
+## Decorator Pattern Example
 
+The Decorator Pattern is a structural design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class. This pattern is commonly used for adding functionalities to classes in a flexible and reusable way.
 
+## Structure
 
-## Course Details
-- Course Name: Object Oriented and Design Pattern Lab 
-- Course Code: CSE-4122
-- Teacher: [SUJAN KUMAR ROY](http://rurfid.ru.ac.bd/ru_profile/public/teacher/22706109/profile)
+In this example, we have the following classes and interfaces:
+
+- `WebPage` (Interface): Represents the base component for web pages.
+- `SimpleWebPage` (Concrete Component): Implements the `WebPage` interface, providing a basic web page.
+- `WebPageDecorator` (Decorator): An abstract class that also implements the `WebPage` interface. It acts as a base class for concrete decorators.
+- `AuthorizedWebPage` (Concrete Decorator): Adds authorization functionality to a web page.
+- `PaginatedWebPage` (Concrete Decorator): Adds pagination functionality to a web page.
+
+## Usage
+
+- `SimpleWebPage` is the base component that represents a simple web page.
+- `WebPageDecorator` serves as a base class for decorators. Decorators extend this class and can dynamically add functionality to web pages.
+- `AuthorizedWebPage` is a concrete decorator that adds authorization functionality to web pages. It checks if the user is authorized to access the web page content.
+- `PaginatedWebPage` is another concrete decorator that adds pagination to web pages, allowing search results to be split across multiple pages.
+
+## Class Diagram
+
+![Class Diagram](/images/class_diagram.png)
