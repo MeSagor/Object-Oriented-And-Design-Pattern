@@ -7,21 +7,38 @@
 - **Assignment 2:** Branch `Assignment-2`
 - **Assignment n:** Branch `Assignment-n`
 
-## Assignments Link 
+## Problem Statement
+Write a Java program to demonstrate the implementation of a state design pattern for a vending machine functionality on purchasing items.
 
-| Problem Statement | Branch |
-| :---------------- | ------ |
-| Write a Java Program to Demonstrate Multiple Inheritance. | [Assignment&#8209;1](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-1)|
-| Write a Java Program for Pet Management System with appropriate OOP Concept and Design Process. | [Assignment&#8209;2](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-2) |
-| Write a Java program to demonstrate the implementation of a façade design pattern for a Banking Service with Checking, Saving, and Investment modules. | [Assignment&#8209;3](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-3) |
-| Write a Java program that demonstrates the implementation of a composite design pattern by using an example with a building composed of generic housing structures. | [Assignment&#8209;4](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-4) |
-|Write a Java program to demonstrate the implementation of a proxy pattern for an online retail store with global distribution and warehousing. | [Assignment&#8209;5](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-5) |
-|Write a Java program to demonstrate the implementation of a decorator pattern for a web page, which might display complex behavior, such as only allowing access to authorized users, or splitting search results across multiple pages. | [Assignment&#8209;6](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-6) |
-|Write a Java program to demonstrate the implementation of a state design pattern for a vending machine functionality on purchasing items. | [Assignment&#8209;7](https://github.com/MeSagor/Object-Oriented-And-Design-Pattern/tree/Assignment-7) |
+## Overview
 
+The State Design Pattern is a behavioral design pattern that allows an object to alter its behavior when its internal state changes. It is particularly useful when an object can have multiple states, and each state requires different behavior.
 
+In this example, I demonstrate the State Design Pattern by implementing a simple Vending Machine. The Vending Machine can be in different states, such as `Idel` and `ProductSelected`. The behavior of the machine varies based on its current state.
 
-## Course Details
-- Course Name: Object Oriented and Design Pattern Lab 
-- Course Code: CSE-4122
-- Teacher: [SUJAN KUMAR ROY](http://rurfid.ru.ac.bd/ru_profile/public/teacher/22706109/profile)
+## Implementation
+
+### Vending Machine
+
+- `VendingMachine` is the context class that holds the current state and controls the behavior of the vending machine.
+- It has methods to select a product, insert taka, and dispense a product.
+- The class delegates the operations to its current state, and the state-specific behavior is implemented in concrete state classes.
+
+### Vending Machine States
+
+- `VendingMachineState` is an interface that defines the methods for different state behaviors.
+- `IdleState` and `ProductSelectedState` are concrete state classes that implement the behavior for the vending machine in different states.
+- The states handle product selection, taka insertion, and product dispensing based on their specific logic.
+
+## Example
+
+Here's a simple example of using the Vending Machine with the State Design Pattern:
+
+```java
+VendingMachine vendingMachine = new VendingMachine();
+vendingMachine.selectProduct(1);   // Select a product
+vendingMachine.insertTaka(10);     // Insert coins
+vendingMachine.dispenseProduct();  // Dispense the product
+```
+## Class Diagram
+![](./images/Class_diagram.png)
