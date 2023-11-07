@@ -41,4 +41,4 @@ vendingMachine.insertTaka(10);     // Insert coins
 vendingMachine.dispenseProduct();  // Dispense the product
 ```
 ## Class Diagram
-<img src="./images/Class_diagram.png" height="400">
+<img src="./images/Class_diagram.png" width="400" height="400">
