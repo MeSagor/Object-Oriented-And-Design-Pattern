@@ -1,5 +1,5 @@
 
-<h1 align="center">Object Oriented and Design Pattern Lab</h1>
+<h1 align="center">Assignment-7</h1>
 
 ## Assignment Branches
 **Note:** My assignments are structured in branches as follows:
